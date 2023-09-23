@@ -45,11 +45,11 @@ def main():
     with open("Top Artists", "w") as outfile:
         outfile.write(json_object)
 
-    """
+
     for key, value in artist_dict.items():
-        print(f"Ranking: {key} Artist: {value[0]}, Monthly listeners {value[1]}, Most streamed song {value[2]} Looks: {value[3]}.")
+        print(f"Ranking: {key}\nArtist: {value[0]}\nMonthly listeners: {value[1]}\nMost streamed song: {value[2]}\nLooks: {value[3]}")
         print("")
-    """
+
 
 if __name__ == "__main__":
     main()
