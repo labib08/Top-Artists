@@ -1,5 +1,6 @@
 import json
 import re
+import time
 
 import requests
 from bs4 import BeautifulSoup
@@ -52,4 +53,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
+        time_wait = 10
+        print(f'Waiting {time_wait} minutes to be updated ...')
+        time.sleep(time_wait * 60)
