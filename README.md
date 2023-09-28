@@ -4,6 +4,8 @@ monthly listeneres and their most streamed song using Beautiful Soup, and is upd
 # Requirements to run the code
 Packages that need to be installed:
 
-  Beautiful soup
-  lxml
-  re
+    Beautiful soup
+    
+    lxml
+    
+    re
