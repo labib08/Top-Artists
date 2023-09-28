@@ -8,4 +8,4 @@ Packages that need to be installed:
     
     lxml
     
-    re
+    requests
